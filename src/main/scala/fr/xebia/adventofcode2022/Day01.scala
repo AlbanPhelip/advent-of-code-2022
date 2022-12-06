@@ -1,6 +1,6 @@
 package fr.xebia.adventofcode2022
 
-object Day1 extends AdventOfCode {
+object Day01 extends AdventOfCode {
 
   override def fileName: String = "aoc1.txt"
 
