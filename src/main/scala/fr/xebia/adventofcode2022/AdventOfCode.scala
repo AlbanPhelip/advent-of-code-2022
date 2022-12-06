@@ -9,7 +9,7 @@ abstract class AdventOfCode {
   def execute(): (Int, Int)
 
   val input: Array[String] = {
-    val file = Source.fromFile(s"/Users/EAPP09211/Documents/Perso/AdventOfCode/$fileName")
+    val file = Source.fromFile(getClass.getResource(s"../../../$fileName").getPath)
     val input = file.getLines.toArray
     file.close()
     input
