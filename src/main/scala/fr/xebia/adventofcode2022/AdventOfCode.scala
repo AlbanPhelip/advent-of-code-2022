@@ -2,11 +2,11 @@ package fr.xebia.adventofcode2022
 
 import scala.io.Source
 
-abstract class AdventOfCode {
+trait AdventOfCode {
 
   def fileName: String
 
-  def execute(): (Int, Int)
+  def execute(): (Any, Any)
 
   val input: Array[String] = {
     val file = Source.fromFile(getClass.getResource(s"../../../$fileName").getPath)
