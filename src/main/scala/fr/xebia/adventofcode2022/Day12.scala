@@ -2,6 +2,9 @@ package fr.xebia.adventofcode2022
 
 import scala.math.abs
 
+/**
+ * I manually modified the input file to make it way easier because flemme
+ */
 object Day12 extends AdventOfCode {
 
   override def fileName: String = "aoc12.txt"
